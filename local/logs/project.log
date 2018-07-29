@@ -1,83 +1,57 @@
-2018-07-29T05:48:48.864Z - normal: Load ~/.CocosCreator/settings.json
-2018-07-29T05:48:48.870Z - normal: checking language setting...
-2018-07-29T05:48:48.870Z - normal: Language: zh
-2018-07-29T05:48:50.755Z - success: protocol editor-framework registered
-2018-07-29T05:48:50.755Z - success: protocol app registered
-2018-07-29T05:48:50.755Z - success: protocol theme registered
-2018-07-29T05:48:50.755Z - success: protocol packages registered
-2018-07-29T05:48:50.755Z - success: protocol unpack registerred
-2018-07-29T05:48:50.755Z - success: protocol disable-commonjs registerred
-2018-07-29T05:48:51.778Z - normal: connected!
-2018-07-29T05:48:51.781Z - normal: Check project C:\Users\jason\Desktop\start_project
-2018-07-29T05:48:51.783Z - normal: Initializing Cocos2d
-2018-07-29T05:48:52.013Z - normal: Initializing Asset Database
-2018-07-29T05:48:52.050Z - success: protocol uuid registerred
-2018-07-29T05:48:52.050Z - success: protocol db registerred
-2018-07-29T05:48:52.050Z - success: protocol thumbnail registerred
-2018-07-29T05:48:52.050Z - normal: Loading editor/builtin packages
-2018-07-29T05:48:52.072Z - success: anysdk loaded
-2018-07-29T05:48:52.196Z - success: assets loaded
-2018-07-29T05:48:52.199Z - success: builder loaded
-2018-07-29T05:48:52.202Z - success: cocos-analytics loaded
-2018-07-29T05:48:52.206Z - success: console loaded
-2018-07-29T05:48:52.244Z - success: fb-instant-games loaded
-2018-07-29T05:48:52.250Z - success: hierarchy loaded
-2018-07-29T05:48:52.259Z - success: inspector loaded
-2018-07-29T05:48:52.261Z - success: keystore loaded
-2018-07-29T05:48:52.265Z - success: node-library loaded
-2018-07-29T05:48:52.267Z - success: package-asset loaded
-2018-07-29T05:48:52.270Z - success: preferences loaded
-2018-07-29T05:48:52.272Z - success: project-exporter loaded
-2018-07-29T05:48:52.287Z - success: project-importer loaded
-2018-07-29T05:48:52.290Z - success: project-settings loaded
-2018-07-29T05:48:52.292Z - success: ui-kit loaded
-2018-07-29T05:48:52.295Z - success: ui-grid loaded
-2018-07-29T05:48:52.298Z - success: scene loaded
-2018-07-29T05:48:52.300Z - success: sprite-editor loaded
-2018-07-29T05:48:52.303Z - success: store loaded
-2018-07-29T05:48:52.308Z - success: timeline loaded
-2018-07-29T05:48:52.308Z - normal: Loading builtin packages
-2018-07-29T05:48:52.310Z - success: asset-db-debugger loaded
-2018-07-29T05:48:52.312Z - success: code-editor loaded
-2018-07-29T05:48:52.312Z - success: color-picker loaded
-2018-07-29T05:48:52.315Z - success: package-manager loaded
-2018-07-29T05:48:52.320Z - success: sdkbox loaded
-2018-07-29T05:48:52.322Z - success: tester loaded
-2018-07-29T05:48:52.324Z - success: ui-kit-preview-extra loaded
-2018-07-29T05:48:52.325Z - success: ui-kit-preview loaded
-2018-07-29T05:48:52.327Z - success: ui-tree loaded
-2018-07-29T05:48:53.417Z - normal: Initializing project C:\Users\jason\Desktop\start_project
-2018-07-29T05:48:53.424Z - normal: Loading packages
-2018-07-29T05:48:53.431Z - normal: Watching packages
-2018-07-29T05:48:53.447Z - normal: Run Application
-2018-07-29T05:48:54.448Z - success: preview server running at http://localhost:7456
-2018-07-29T05:48:59.395Z - normal: 1.9.0
-2018-07-29T06:16:44.872Z - failed: [db-task][sync-changes] Failed to import asset C:\Users\jason\Desktop\start_project\assets\scripts\game.js, message: Compile error: SyntaxError: C:/Users/jason/Desktop/start_project/assets/scripts/game.js: Unexpected token, expected , (64:4)
-  62 |     }
-  63 | 
-> 64 |     start () {
-     |     ^
-  65 | 
-  66 |     },
-  67 | 
-    at Parser.pp$5.raise (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
-    at Parser.pp.unexpected (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
-    at Parser.pp.expect (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1749:33)
-    at Parser.pp$3.parseObj (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3978:12)
-    at Parser.pp$3.parseExprAtom (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3719:19)
-    at Parser.pp$3.parseExprSubscripts (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
-    at Parser.pp$3.parseMaybeUnary (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
-    at Parser.pp$3.parseExprOps (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
-    at Parser.pp$3.parseMaybeConditional (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
-    at Parser.pp$3.parseMaybeAssign (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
-2018-07-29T06:20:16.375Z - warn: The Prefab used by component "game" is missing. Detailed information:
-Node path: "Canvas"
-Missing uuid: "c3e322cd-c36b-4490-86a3-bd4899218687"
-
-2018-07-29T06:21:05.382Z - warn: The Prefab used by component "game" is missing. Detailed information:
-Node path: "Canvas"
-Missing uuid: "c3e322cd-c36b-4490-86a3-bd4899218687"
-
-2018-07-29T06:25:11.342Z - warn: The Asset used is missing. Detailed information:
-Missing uuid: "c3e322cd-c36b-4490-86a3-bd4899218687"
-
+2018-07-29T12:11:51.442Z - normal: Load ~/.CocosCreator/settings.json
+2018-07-29T12:11:51.448Z - normal: checking language setting...
+2018-07-29T12:11:51.448Z - normal: Language: zh
+2018-07-29T12:11:55.382Z - success: protocol editor-framework registered
+2018-07-29T12:11:55.383Z - success: protocol app registered
+2018-07-29T12:11:55.383Z - success: protocol theme registered
+2018-07-29T12:11:55.383Z - success: protocol packages registered
+2018-07-29T12:11:55.383Z - success: protocol unpack registerred
+2018-07-29T12:11:55.383Z - success: protocol disable-commonjs registerred
+2018-07-29T12:11:56.322Z - normal: connected!
+2018-07-29T12:11:56.324Z - normal: Check project D:\_repository\public\learning-cocos-creator
+2018-07-29T12:11:56.326Z - normal: Initializing Cocos2d
+2018-07-29T12:11:57.989Z - normal: Initializing Asset Database
+2018-07-29T12:11:58.041Z - success: protocol uuid registerred
+2018-07-29T12:11:58.041Z - success: protocol db registerred
+2018-07-29T12:11:58.041Z - success: protocol thumbnail registerred
+2018-07-29T12:11:58.041Z - normal: Loading editor/builtin packages
+2018-07-29T12:11:58.064Z - success: anysdk loaded
+2018-07-29T12:11:58.209Z - success: assets loaded
+2018-07-29T12:11:58.212Z - success: builder loaded
+2018-07-29T12:11:58.215Z - success: cocos-analytics loaded
+2018-07-29T12:11:58.219Z - success: console loaded
+2018-07-29T12:11:58.259Z - success: fb-instant-games loaded
+2018-07-29T12:11:58.263Z - success: hierarchy loaded
+2018-07-29T12:11:58.267Z - success: inspector loaded
+2018-07-29T12:11:58.269Z - success: keystore loaded
+2018-07-29T12:11:58.273Z - success: node-library loaded
+2018-07-29T12:11:58.276Z - success: package-asset loaded
+2018-07-29T12:11:58.278Z - success: preferences loaded
+2018-07-29T12:11:58.280Z - success: project-exporter loaded
+2018-07-29T12:11:58.297Z - success: project-importer loaded
+2018-07-29T12:11:58.299Z - success: project-settings loaded
+2018-07-29T12:11:58.303Z - success: ui-kit loaded
+2018-07-29T12:11:58.314Z - success: ui-grid loaded
+2018-07-29T12:11:58.318Z - success: scene loaded
+2018-07-29T12:11:58.319Z - success: sprite-editor loaded
+2018-07-29T12:11:58.323Z - success: store loaded
+2018-07-29T12:11:58.329Z - success: timeline loaded
+2018-07-29T12:11:58.329Z - normal: Loading builtin packages
+2018-07-29T12:11:58.344Z - success: asset-db-debugger loaded
+2018-07-29T12:11:58.357Z - success: code-editor loaded
+2018-07-29T12:11:58.362Z - success: color-picker loaded
+2018-07-29T12:11:58.374Z - success: package-manager loaded
+2018-07-29T12:11:58.381Z - success: qqplay-adapter loaded
+2018-07-29T12:11:58.398Z - success: sdkbox loaded
+2018-07-29T12:11:58.414Z - success: tester loaded
+2018-07-29T12:11:58.424Z - success: ui-kit-preview-extra loaded
+2018-07-29T12:11:58.431Z - success: ui-kit-preview loaded
+2018-07-29T12:11:58.442Z - success: ui-tree loaded
+2018-07-29T12:11:58.448Z - success: weapp-adapter loaded
+2018-07-29T12:11:59.876Z - normal: Initializing project D:\_repository\public\learning-cocos-creator
+2018-07-29T12:11:59.887Z - normal: Loading packages
+2018-07-29T12:11:59.896Z - normal: Watching packages
+2018-07-29T12:12:00.205Z - normal: Run Application
+2018-07-29T12:12:01.214Z - success: preview server running at http://localhost:7456
+2018-07-29T12:12:09.511Z - normal: 1.9.3
+2018-07-29T12:13:55.212Z - info: shutdown preview server

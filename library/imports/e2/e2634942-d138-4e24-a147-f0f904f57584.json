@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Start-Game",
+    "texture": "60bb0757-114c-47ea-bc7c-00e05dc605b4",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      317,
+      141
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      317,
+      141
+    ]
+  }
+}
